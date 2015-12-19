@@ -1373,13 +1373,13 @@ void parsePGM( const char *fileName , GLubyte A[240][240]){
 }
 
 void parseThem( ){
-  parsePGM("images/menu1.pgm",menu1);
-  parsePGM("images/menu2.pgm",menu2);
-  parsePGM("images/menu3.pgm",menu3);
-  parsePGM("images/menu4.pgm",menu4);
-  parsePGM("images/menu5.pgm",menu5);
-  parsePPM("images/cubes.ppm",tiger);
-  parsePGM("images/go.pgm",go);
+  parsePGM("/images/menu1.pgm",menu1);
+  parsePGM("/images/menu2.pgm",menu2);
+  parsePGM("/images/menu3.pgm",menu3);
+  parsePGM("/images/menu4.pgm",menu4);
+  parsePGM("/images/menu5.pgm",menu5);
+  parsePPM("/images/cubes.ppm",tiger);
+  parsePGM("/images/go.pgm",go);
 }
 
 
